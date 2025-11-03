@@ -1,0 +1,23 @@
+{
+	"name": "mergedata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragemerge",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "csvfiles",
+				"container": "des"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
