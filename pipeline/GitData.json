@@ -54,7 +54,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "sinkcsvDES",
+						"referenceName": "Gitdata",
 						"type": "DatasetReference"
 					}
 				]
