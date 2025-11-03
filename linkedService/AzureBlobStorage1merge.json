@@ -1,0 +1,11 @@
+{
+	"name": "AzureBlobStorage1merge",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"containerUri": "https://adfstorageshaik.blob.core.windows.net/des",
+			"authenticationType": "Anonymous"
+		}
+	}
+}
