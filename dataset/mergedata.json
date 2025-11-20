@@ -1,0 +1,57 @@
+{
+	"name": "mergedata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragemerge",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "meresales",
+				"folderPath": "csvfiles",
+				"container": "des"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "OrderDate",
+				"type": "String"
+			},
+			{
+				"name": "StockDate",
+				"type": "String"
+			},
+			{
+				"name": "OrderNumber",
+				"type": "String"
+			},
+			{
+				"name": "ProductKey",
+				"type": "String"
+			},
+			{
+				"name": "CustomerKey",
+				"type": "String"
+			},
+			{
+				"name": "TerritoryKey",
+				"type": "String"
+			},
+			{
+				"name": "OrderLineItem",
+				"type": "String"
+			},
+			{
+				"name": "OrderQuantity",
+				"type": "String"
+			}
+		]
+	}
+}
